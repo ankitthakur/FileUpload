@@ -1,0 +1,26 @@
+{
+  "name": "express-livescript",
+  "version": "0.0.1",
+  "description": "sample application, used to create with different dependencies configuration",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "consolidate": "latest",
+    "mongoose": "latest",
+    "pg": "latest",
+    "less-middleware": "latest",
+    "reversable-router": "latest",
+    "crypto": "latest",
+    "socket.io": "latest",
+    "formidable": "latest",
+    "mime": "latest",
+    "socketio-file-upload": "latest",
+    "express-upload": "latest",
+    "nodemailer": "latest",
+    "gm": "latest",
+    "mv": "~1.0.0"
+  }
+}
