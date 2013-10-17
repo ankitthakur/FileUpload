@@ -9,16 +9,12 @@ exports.index = function (req, res) {
 };
 
 exports.uploadImage = function (req, res) {
-    console.log(req.files.fileUpload.name);
-    console.log(req.files.fileUpload.path);
-
+    
     var filepath = path.join(__dirname + '../../public/images/');
     copyFile(filepath, req, res);
 };
 
 exports.uploadVideo = function (req, res) {
-    console.log(req.files.fileUpload.name);
-    console.log(req.files.fileUpload.path);
     var filepath = path.join(__dirname + '../../public/videos/');
     copyFile(filepath, req, res);
 };
